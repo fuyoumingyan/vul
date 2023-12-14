@@ -1,5 +1,10 @@
 # WordPress Geo Controller Plugin  - PHP Object Injection         
 
+environment：
+
+-  wordpress 6.4.0
+- Geo Controller 8.6.4 
+
 The `cf-geoplugin\inc\classes\Shortcodes.php` file in the Geo Controller Plugin contains a `unserialize` function with a controllable parameter, potentially leading to a PHP object injection vulnerability.
 
 ```php
